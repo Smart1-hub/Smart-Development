@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url(/fonts/Cocogoose.otf);
+  font-weight: bold;
+}
+
+:root {
+  --dark: #272a31;
+  --lightred: #ec5242;
+  --grey: #d3d3d3;
+  --white: #fff;
+  --offwhite: #e3e4e6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  position: relative;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.4em;
+  background: var(--offwhite);
+  background-image: url(images/Capstone_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:link {
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--lightred);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  height: 3em;
+  background-color: var(--offwhite);
+  z-index: 21;
+}
+
+.menu, header
+.navbar-white {
+  display: none;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 0.625em;
+}
+
+header .hamburger {
+  margin-top: 0.625em;
+  margin-left: 1.875em;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 8px;
+  background-color: var(--dark);
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header .hamburger .active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+header .hamburger .active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+   background-color: white;
+}
+
+header .hamburger .active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+main {
+  margin-top: 3em;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5em 1.5em;
+  row-gap: 20px;
+  overflow-x: hidden;
+}
+
+.headline-hello {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--lightred);
+  padding: 5px;
+  letter-spacing: 2px;
+
+}
+
