@@ -57,7 +57,7 @@ const programData = [
       speakerImage: 'images/Ademola.png',
       speakerName: 'Ademola Adebayo',
       speakerProfile: 'Founder, SCDK Ltd',
-      speakerBio: 'Ademola, a seasoned GIS expert and teacher; he has over 18 publications and participated in several projects\'.',
+      speakerBio: 'Ademola, is a seasoned GIS expert and teacher; he has over 18 publications and participated in several projects\'.',
     },
     {
       id: 3,
