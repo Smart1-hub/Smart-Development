@@ -58,14 +58,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   max-width: 100%;
   height: 3em;
-  background-color: var(--lightred);
+  background-color: var(--offwhite);
   z-index: 21;
 }
 
@@ -102,7 +102,7 @@ header .hamburger .active .bar:nth-child(2) {
 
 header .hamburger .active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-   background-color: white;
+  background-color: white;
 }
 
 header .hamburger .active .bar:nth-child(3) {
@@ -144,7 +144,7 @@ main {
   line-height: 1.2rem;
   padding: 1.5rem;
   background-color: var(--grey);
-  border: 3px solid var(--white);
+  border: 5px solid var(--white);
 }
 
 .headline-date {
@@ -170,7 +170,7 @@ main {
 .main-program {
   font-size: 30px;
   font-weight: normal;
-  color: #fff;
+  color: var(--white);
   justify-content: center;
 }
 
@@ -294,7 +294,7 @@ main {
 .speaker-profile {
   font-weight: normal;
   font-size: 16px;
-  color: #ec5242;
+  color: var(--lightred);
 }
 
 .speaker-bio {
@@ -324,7 +324,7 @@ main {
   background-color: #272a31;
 }
 
-.more-button img {
+.more-button i {
   color: var(--lightred);
 }
 
@@ -431,14 +431,14 @@ main {
   width: 60%;
 }
 
-.footer-section {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  background-color: #d3d3d3;
+.footer-section-about {
+  display: none;
 }
+
+/* .footer-section-about img {
+  display: block;
+  width: 20%;
+} */
 
 .copyright {
   text-align: center;
@@ -475,7 +475,7 @@ main {
 
 .toggle-items {
   font-size: 32px;
-  color: #272a31;
+  color: var(--dark);
   font-weight: bold;
   padding-left: 28px;
 }
@@ -514,6 +514,7 @@ main {
 
   .fa-brands {
     color: var(--white);
+    font-size: 16px;
   }
 
   .fa-brands:hover {
@@ -548,6 +549,8 @@ main {
   }
 
   header .navbar-white img {
+    width: 48px;
+    height: 48px;
     margin-top: 3px;
   }
 
@@ -557,16 +560,16 @@ main {
     gap: 55px;
   }
 
-  .header-white-menu a {
+  .header-white-menu-item a {
     outline: none;
     text-decoration: none;
-    color: var(--lightred);
+    color: #272a31;
   }
 
-  .header-white-menu a:hover {
+  .header-white-menu-item a:hover {
     outline: none;
     text-decoration: none;
-    color: var(--lightred);
+    color: #ec5242;
   }
 
   header .white-button {
@@ -702,6 +705,10 @@ main {
     align-items: center;
     gap: 5px;
     margin-top: 30px;
+    background-image: url(images/speaker-frame.PNG);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
   }
 
   .speaker-photo {
@@ -759,11 +766,25 @@ main {
     gap: 25px;
   }
 
-  .footer-section {
+  .footer-section-about {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     background-color: var(--white);
+  }
+
+  .footer-section-about img {
+    display: block;
+    width: 20%;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--dark);
+  }
+
+  .copyright,
+  .copyright-info {
+    display: flex;
+    text-align: center;
+    color: var(--dark);
   }
 }

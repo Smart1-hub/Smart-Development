@@ -2,7 +2,7 @@
 
 # Mobile-Design
 
-![screenshot](.png)
+![screenshot](images/snapshot.png)
 
 This my Capstone Project in the Microverse curriculum.
 
