@@ -15,7 +15,7 @@ This my Capstone Project in the Module 1 Microverse curriculum.
 
 ## Live Demo
 
-[Live Demo Link](https://www.activegitpages)
+[Live Demo Link](https://smart1-hub.github.io/Smart-Development/)
 
 ## Getting Started
 
