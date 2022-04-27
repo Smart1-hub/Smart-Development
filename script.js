@@ -31,14 +31,14 @@ const programData = [
     programInfo: 'Appreciate display of works of art or items of interest at the conference.',
   },
 ];
-  const program = document.querySelector('.program-container');
-  for (let i = 0; i < programData.length; i += 1) {
-    program.innerHTML += `<div class="program-category">
+const program = document.querySelector('.program-container');
+for (let i = 0; i < programData.length; i += 1) {
+  program.innerHTML += `<div class="program-category">
     <i class="fa-solid ${programData[i].programIcon}"></i>
     <h2 class="program-name">${programData[i].programName}</h2>
     <p class="program-info">${programData[i].programInfo}</p>                
   </div>`;
-  }
+}
 /*  SPEAKERS  */
 const speakerDetails = [
   {
@@ -84,10 +84,9 @@ const speakerDetails = [
     speakerBio: 'A musician and vocalist, a native of Egba in Abeokuta, Ogun State. Her genre of music is the gospel category.',
   },
 ];
-  
 const speaker = document.querySelector('.speakers-container');  
-  for (let i = 0; i < speakerDetails.length; i += 1) {
-    speaker.innerHTML += `<div class="speaker-details">
+for (let i = 0; i < speakerDetails.length; i += 1) {
+  speaker.innerHTML += `<div class="speaker-details">
     <div class="speaker-photo">
       <img src="${speakerDetails[i].speakerImage}" alt="${speakerDetails[i].speakerName}">
     </div>
@@ -97,8 +96,8 @@ const speaker = document.querySelector('.speakers-container');
       <p class="speaker-bio">${speakerDetails[i].speakerBio}</p>
     </div>        
   </div>`;
-  }
-  /*  DOM ELEMENTS  */
+}
+/*  DOM ELEMENTS  */
 const body = document.querySelector('body');
 const toggleMenu = document.createElement('div');
 toggleMenu.setAttribute('class', 'toggleMenu');
@@ -128,7 +127,6 @@ aNews.href = 'about.html#news';
 const toggleNews = document.createElement('p');
 toggleNews.setAttribute('class', 'toggle-items');
 toggleNews.innerHTML = 'News';
-  
 toggleMenu.append(aAbout);
 aAbout.append(toggleAbout);
 toggleMenu.append(aProgram);
@@ -147,18 +145,15 @@ toggleItems.push(aProgram);
 toggleItems.push(aJoin);
 toggleItems.push(aSponsor);
 toggleItems.push(aNews);
-  
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
-    if (document.querySelector('.toggleMenu')) {
-      toggleMenu.remove(toggleMenu);
-    } else {
-      body.append(toggleMenu);
-    }
+  if (document.querySelector('.toggleMenu')) {
+    toggleMenu.remove(toggleMenu);
+  } else {
+    body.append(toggleMenu);
+  }
 });
-  
 toggleItems.forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.toggle('active');
     toggleMenu.remove(toggleMenu);
 }));
-  
