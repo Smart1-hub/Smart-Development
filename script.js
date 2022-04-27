@@ -84,7 +84,7 @@ const speakerDetails = [
     speakerBio: 'A musician and vocalist, a native of Egba in Abeokuta, Ogun State. Her genre of music is the gospel category.',
   },
 ];
-const speaker = document.querySelector('.speakers-container');  
+const speaker = document.querySelector('.speakers-container');
 for (let i = 0; i < speakerDetails.length; i += 1) {
   speaker.innerHTML += `<div class="speaker-details">
     <div class="speaker-photo">
@@ -136,7 +136,7 @@ aJoin.append(toggleJoin);
 toggleMenu.append(aSponsor);
 aSponsor.append(toggleSponsor);
 toggleMenu.append(aNews);
-aNews.append(toggleNews);  
+aNews.append(toggleNews);
 /*  TOGGLE MENU */
 const hamburger = document.querySelector('.hamburger');
 const toggleItems = [];
