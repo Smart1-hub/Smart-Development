@@ -69,8 +69,8 @@ header {
   z-index: 21;
 }
 
-.menu, header
-.navbar-white {
+.menu,
+header .navbar-white {
   display: none;
 }
 
@@ -124,7 +124,7 @@ main {
 }
 
 .headline-hello {
-  font-size: clamp(2em 1em + 4em);
+  font-size: 2em;
   font-weight: bold;
   color: var(--lightred);
   padding: 5px;
@@ -329,136 +329,137 @@ main {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5.5rem 1.5rem;
-    gap: 40px;
-    overflow-x: hidden;
-  }
-  
-  .about-seminar {
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 45px;
-    color: #ec5242;
-    text-align: center;
-  }
-  
-  .about-para {
-    font-size: 12px;
-    background-color: #d3d3d3;
-    border: 5px solid white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .about-contact {
-    font-size: 13px;
-    text-align: center;
-  }
-  
-  .about-mail {
-    font-weight: bolder;
-    margin-bottom: 20px;
-  }
-  
-  .seminar-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5.5rem 1.5rem;
-    gap: 30px;
-    overflow-x: hidden;
-    background-color: #fff;
-  }
-  
-  .seminar-logo-header,
-  .past-seminar-header {
-    text-align: center;
-  }
-  
-  .seminar-logo-para,
-  .past-seminar-para {
-    font-size: 14px;
-    text-align: center;
-  }
-  
-  .seminar-logo-para2 {
-    display: none;
-  }
-  
-  .Smart-logo img {
-    display: block;
-    padding: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 10px var(--dark);
-  }
-  
-  .past-seminar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5.5rem 1.5rem;
-    gap: 30px;
-    overflow-x: hidden;
-  }
-  
-  .past-seminars-images {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 35px;
-    width: 320px;
-  }
-  
-  .partner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5rem 1.5rem;
-    row-gap: 15px;
-    background-color: #272a31;
-  }
-  
-  .partner-list {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
-    margin-top: 32px;
-  }
-  
-  .partner-list img {
-    width: 60%;
-  }
-  
-  .footer-section-about {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    background-color: #d3d3d3;
-  }
-  
-  .footer-section-about img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.5rem 1.5rem;
+  gap: 40px;
+  overflow-x: hidden;
+}
+
+.about-seminar {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #ec5242;
+  text-align: center;
+}
+
+.about-para {
+  font-size: 12px;
+  background-color: #d3d3d3;
+  border: 5px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-contact {
+  font-size: 13px;
+  text-align: center;
+}
+
+.about-mail {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.seminar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.5rem 1.5rem;
+  gap: 30px;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.seminar-logo-header,
+.past-seminar-header {
+  text-align: center;
+}
+
+.seminar-logo-para,
+.past-seminar-para {
+  font-size: 14px;
+  text-align: center;
+}
+
+.seminar-logo-para2 {
+  display: none;
+}
+
+.Smart-logo img {
+  display: block;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 10px var(--dark);
+}
+
+.past-seminar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.5rem 1.5rem;
+  gap: 30px;
+  overflow-x: hidden;
+}
+
+.past-seminars-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+  width: 320px;
+}
+
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 1.5rem;
+  row-gap: 15px;
+  background-color: #272a31;
+}
+
+.partner-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.partner-list img {
+  width: 60%;
+}
+
+.footer-section-about {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #d3d3d3;
+}
+
+.footer-section-about img {
   display: block;
   width: 20%;
-  }
-  .copyright {
-    text-align: center;
-    color: #272a31;
-  }
-  
-  .copyright-about {
-    color: #fff;
-    text-align: center;
-  }
-  
-  .copyright-info {
-    display: none;
-  }
+}
+
+.copyright {
+  text-align: center;
+  color: #272a31;
+}
+
+.copyright-about {
+  color: #fff;
+  text-align: center;
+}
+
+.copyright-info {
+  display: none;
+}
 
 /*   Toggle Menu  */
 .toggleMenu {
@@ -477,8 +478,8 @@ main {
   opacity: 0.9;
   align-items: center;
   z-index: 18;
-  }
-  
+}
+
 .toggle-items {
   font-size: 32px;
   color: #272a31;
@@ -487,153 +488,170 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-    header {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-    }
-  
-    header .navbar-black {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      height: 2rem;
-      padding: 10px 0;
-      background-color: var(--dark);
-    }
-  
-    header .hamburger {
-      display: none;
-    }
-  
-    .menu {
-      display: flex;
-      align-items: center;
-      gap: 25px;
-      margin-left: 900px;
-    }
-  
-    .fa-brands {
-      color: var(--white);
-      font-size: 16px;
-    }
-  
-    .fa-brands:hover {
-      color: var(--lightred);
-      text-decoration: none;
-    }
-  
-    .header-menu {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-right: 80px;
-    }
-  
-    .header-menu-item {
-      padding: 0 5px;  
-      width: 70px;
-    }
-  
-    header .navbar-white {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 100%;
-      height: 60px;
-      background-color: var(--white);
-      box-shadow: 0 1px 10px var(--dark);
-    }
-  
-    .partner-list img {
-      width: 80%;
-    }
-  
-    header .navbar-white .logo img {
-      width: 48px;
-      height: 48px;
-      margin-top: 3px;
-    }
-  
-    header .header-white-menu {
-      display: flex;
-      font-size: 16px;
-      gap: 55px;
-    }
-  
-    .header-white-menu-item a {
-      outline: none;
-      text-decoration: none;
-      color: #272a31;
-    }
-  
-    .header-white-menu-item a:hover {
-      outline: none;
-      text-decoration: none;
-      color: #ec5242;
-    }
-  
-    header .white-button {
-      padding: 10px;
-      color: var(--lightred);
-      background-color: var(--white);
-      border: 3px solid var(--lightred);
-      cursor: pointer;
-    }
-  
-    header .white-button:hover {
-      padding: 10px;
-      color: var(--white);
-      background-color: var(--lightred);
-      border: 3px solid var(--white);
-      cursor: pointer;
-    }
-  
-    main {
-      margin-top: 160px;
-    }
-  
-    .headline {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 5em 1.5em;
-      column-gap: 20px;
-      row-gap: 20px;
-      overflow-x: hidden;    
-    }
-  
-    .headline-hello {
-      font-size: 1.8em;
-      font-weight: bold;
-      color: var(--lightred);
-      padding: 15px;
-      letter-spacing: 2px;
-    }
-  
-    .headline-seminar,
-    .about-seminar {
-      font-family: "cocogoose", sans-serif;
-      font-size: 2.5em;
-      font-weight: bold;
-      line-height: 3rem;
-      padding: 15px;
-      color: var(--lightred);
-    }
-  
-    .headline-para {
-      font-size: 1.1rem;
-      line-height: 2rem;
-      padding: 1.5rem;
-      background-color: var(--grey);
-      border: 6px solid var(--white);
-    }
-  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  header .navbar-black {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 2rem;
+    padding: 10px 0;
+    background-color: var(--dark);
+  }
+
+  header .hamburger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 900px;
+  }
+
+  .fa-brands {
+    color: var(--white);
+    font-size: 16px;
+  }
+
+  .fa-brands:hover {
+    color: var(--lightred);
+    text-decoration: none;
+  }
+
+  .header-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 80px;
+  }
+
+  .header-menu-item {
+    padding: 0 5px;
+    width: 70px;
+  }
+
+  .past-seminars-images {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  header .navbar-white {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--dark);
+  }
+
+  .partner-list img {
+    width: 80%;
+  }
+
+  .past-seminars-images img {
+    width: 100%;
+  }
+
+  .footer-section-about img {
+    display: block;
+    width: 20%;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--dark);
+  }
+
+  header .navbar-white .logo img {
+    width: 48px;
+    height: 48px;
+    margin-top: 3px;
+  }
+
+  header .header-white-menu {
+    display: flex;
+    font-size: 16px;
+    gap: 55px;
+  }
+
+  .header-white-menu-item a {
+    outline: none;
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .header-white-menu-item a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #ec5242;
+  }
+
+  header .white-button {
+    padding: 10px;
+    color: var(--lightred);
+    background-color: var(--white);
+    border: 3px solid var(--lightred);
+    cursor: pointer;
+  }
+
+  header .white-button:hover {
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--lightred);
+    border: 3px solid var(--white);
+    cursor: pointer;
+  }
+
+  main {
+    margin-top: 160px;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5em 1.5em;
+    column-gap: 20px;
+    row-gap: 20px;
+    overflow-x: hidden;
+  }
+
+  .headline-hello {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--lightred);
+    padding: 15px;
+    letter-spacing: 2px;
+  }
+
+  .headline-seminar,
+  .about-seminar {
+    font-family: "cocogoose", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 3rem;
+    padding: 15px;
+    color: var(--lightred);
+  }
+
+  .headline-para {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 1.5rem;
+    background-color: var(--grey);
+    border: 6px solid var(--white);
+  }
+
   .headline-date {
     font-size: 32px;
     line-height: 52px;
@@ -641,171 +659,155 @@ main {
     font-weight: bold;
     padding: 15px;
   }
-  
-    .headline-venue {
-      font-size: 1.2rem;
-      padding: 15px;
-    }
-  
-    .about-para {
-      font-size: 18px;
-      background-color: #d3d3d3;
-      border: 5px solid white;
-      padding: 20px;
-      width: 60%;
-    }
-  
-    .line {
-      width: 20%;
-      background-color: #ec5242;
-      height: 1px;
-    }
-    .program-container {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
-      gap: 15px;
-      width: 85%;
-    }
-  
-    .program-category {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      background-color: #858383;
-      padding: 40px 15px;
-      margin-top: 30px;
-      align-items: center;
-    }
-  
-    .more-button {
-      display: none;
-    }
-  
-    .join-button {
-      display: none;  
-    }
-  
-    .see-program {
-      display: block;
-      margin-top: 50px;
-      font-weight: normal;
-      color: var(--white);
-      text-decoration: underline;
-    }
-  
-    .speakers {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 5rem 1.5rem;
-      row-gap: 14px;
-      background-color: var(--white);
-    }
-  
-    .speakers-container {
-      display: grid;
-      grid-template-columns: auto auto;
-      width: 60%;
-    }
-  
-    .header-speakers {
-      justify-content: center;
-      font-size: 30px;
-      font-weight: normal;
-      color: var(--dark);
-    }
-  
-    .speaker-details {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      gap: 5px;
-      margin-top: 30px;
-      background-image: url(images/speaker-frame.PNG);
-      background-size: 80px;
-      background-repeat: no-repeat;
-      background-position: top left;
-    }
-  
-    .speaker-photo {
-      margin-left: 8px;
-      margin-top: 8px;
-    }
-  
-    .speaker-info {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      padding: 1px;
-    }
-  
-    .speaker-name {
-      font-size: 20px;
-    }
-  
-    .speaker-profile {
-      font-size: 15px;
-      font-weight: normal;
-      color: var(--lightred);
-    }
-  
-    .speaker-bio {
-      font-size: 12px;
-      font-style: italic;
-    }
-  
-    .seminar-logo-para2 {
-      display: flex;
-      font-size: 14px;
-      text-align: center;
-    }
-  
-    .past-seminars-images {
-      display: flex;
-      flex-direction: row;
-      gap: 32px;
-    }
-  
-    .past-seminars-images img {
-      width: 100%;
-    }
-  
-    .partner {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 5rem 1.5rem;
-      row-gap: 15px;
-      background-color: var(--dark);
-    }
-  
-    .partner-list {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 25px;
-    }
-  
-    .footer-section-about {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 25px;
-      background-color: var(--white);
-    }
-  
-    .footer-section-about img {
-      display: block;
-      width: 20%;
-      background-color: var(--white);
-      box-shadow: 0 1px 10px var(--dark);
-    }
-  
-    .copyright,
-    .copyright-info {
-      display: flex;
-      text-align: center;
-      color: var(--dark);
-    }
+
+  .headline-venue {
+    font-size: 1.2rem;
+    padding: 15px;
   }
+
+  .about-para {
+    font-size: 18px;
+    background-color: #d3d3d3;
+    border: 5px solid white;
+    padding: 20px;
+    width: 60%;
+  }
+
+  .line {
+    width: 20%;
+    background-color: #ec5242;
+    height: 1px;
+  }
+
+  .program-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15px;
+    width: 85%;
+  }
+
+  .program-category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #858383;
+    padding: 40px 15px;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .more-button {
+    display: none;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .see-program {
+    display: block;
+    margin-top: 50px;
+    font-weight: normal;
+    color: var(--white);
+    text-decoration: underline;
+  }
+
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1.5rem;
+    row-gap: 14px;
+    background-color: var(--white);
+  }
+
+  .speakers-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60%;
+  }
+
+  .header-speakers {
+    justify-content: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--dark);
+  }
+
+  .speaker-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    background-image: url(images/speaker-frame.PNG);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  .speaker-photo {
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+
+  .speaker-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 1px;
+  }
+
+  .speaker-name {
+    font-size: 20px;
+  }
+
+  .speaker-profile {
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--lightred);
+  }
+
+  .speaker-bio {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .seminar-logo-para2 {
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1.5rem;
+    row-gap: 15px;
+    background-color: var(--dark);
+  }
+
+  .partner-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-section-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: var(--white);
+  }
+
+  .copyright,
+  .copyright-info {
+    display: flex;
+    text-align: center;
+    color: var(--dark);
+  }
+}

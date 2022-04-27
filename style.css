@@ -69,8 +69,8 @@ header {
   z-index: 21;
 }
 
-.menu, header
-.navbar-white {
+.menu,
+header .navbar-white {
   display: none;
 }
 
@@ -124,7 +124,7 @@ main {
 }
 
 .headline-hello {
-  font-size: clamp(2em 1em + 4em);
+  font-size: 2em;
   font-weight: bold;
   color: var(--lightred);
   padding: 5px;
@@ -453,6 +453,7 @@ main {
 .copyright-info {
   display: none;
 }
+
 /*   Toggle Menu  */
 
 .toggleMenu {
@@ -530,7 +531,7 @@ main {
   }
 
   .header-menu-item {
-    padding: 0 5px;  
+    padding: 0 5px;
     width: 70px;
   }
 
@@ -546,6 +547,13 @@ main {
 
   .partner-list img {
     width: 80%;
+  }
+
+  .footer-section-about img {
+    display: block;
+    width: 20%;
+    background-color: var(--white);
+    box-shadow: 0 1px 10px var(--dark);
   }
 
   header .navbar-white img {
@@ -599,7 +607,7 @@ main {
     padding: 5em 1.5em;
     column-gap: 20px;
     row-gap: 20px;
-    overflow-x: hidden;    
+    overflow-x: hidden;
   }
 
   .headline-hello {
@@ -627,13 +635,13 @@ main {
     border: 6px solid var(--white);
   }
 
-.headline-date {
-  font-size: 32px;
-  line-height: 52px;
-  color: #272a31;
-  font-weight: bold;
-  padding: 15px;
-}
+  .headline-date {
+    font-size: 32px;
+    line-height: 52px;
+    color: #272a31;
+    font-weight: bold;
+    padding: 15px;
+  }
 
   .headline-venue {
     font-size: 1.2rem;
@@ -643,6 +651,7 @@ main {
   .line {
     width: 20%;
   }
+
   .program-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -665,7 +674,7 @@ main {
   }
 
   .join-button {
-    display: none;  
+    display: none;
   }
 
   .see-program {
@@ -772,13 +781,6 @@ main {
     align-items: center;
     gap: 25px;
     background-color: var(--white);
-  }
-
-  .footer-section-about img {
-    display: block;
-    width: 20%;
-    background-color: var(--white);
-    box-shadow: 0 1px 10px var(--dark);
   }
 
   .copyright,
