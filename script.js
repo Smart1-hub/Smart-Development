@@ -155,5 +155,5 @@ hamburger.addEventListener('click', () => {
 });
 toggleItems.forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.toggle('active');
-    toggleMenu.remove(toggleMenu);
+  toggleMenu.remove(toggleMenu);
 }));
