@@ -50,9 +50,9 @@ https://www.loom.com/share/4bae1adf0d6e49c6afcd492efdf32c24
 
 ## Acknowledgement
 
-Microvers Org.
-Cindy Shin
-All whose codes have been built on
+- Microvers Org.
+- Cindy Shin
+- All whose codes have been built on
 
 ## Contributing
 
@@ -65,4 +65,4 @@ Give a ⭐ if you like this project and how it is built!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
