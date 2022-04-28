@@ -62,7 +62,7 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐ if you like this project and how it is built!
 
+
 ## 📝 License
 
-This project is [MIT](https://github.com/Smart1-hub/Smart Development/blob/add-license-1/LICENSE)
-
+This project is [MIT](./MIT.md) licensed.
